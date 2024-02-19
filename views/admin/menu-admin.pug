@@ -1,0 +1,14 @@
+extends ../common/layout
+
+block layout-content 
+  h1.page-title Admin menu 
+  a(href="/admin/menu/add") + Add new link 
+  table 
+    thead 
+      tr 
+        th Link 
+        th Operation 
+    tbody 
+      each link in menu 
+        tr 
+           td #{link.name} {#{link.path}}

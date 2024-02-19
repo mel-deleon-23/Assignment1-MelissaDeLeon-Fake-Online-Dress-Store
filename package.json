@@ -1,0 +1,21 @@
+{
+  "name": "assign1-melissadeleon",
+  "version": "1.0.0",
+  "description": "Assignment 1 - Melissa De Leon",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "author": "MelissaD",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "dotenv": "^16.4.3",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

@@ -1,0 +1,14 @@
+header#header
+    div.header-content.container 
+      h1.header 
+        h2#site-name MODL Divine
+            nav.main-menu 
+              ul.navbar-nav 
+                each link in menu 
+                  li.nav-item  
+                    a.nav-link(href=link.path) #{link.name}
+                    //- a.nav-link(href=link.path) #{link.name} 
+                  //- li.nav-item  
+                  //-     a.nav-link(href="dresses") Dresses   
+                  //- li.nav-item  
+                  //-     a.nav-link(href="about") About Us  

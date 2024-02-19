@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    padding: 10px 35px;
+    background: #f2e5ba;
+}
+
+
+#site-name {
+    /* float: left; */
+    color: #5f1e16;
+}
+
+.page-title {
+    /* color: #96784c; */
+    color: #5f1e16;
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.home-pg-title {
+    color: #715b3a;
+    text-align: center;
+}
+
+.about-container {
+    padding: 10px 60px;
+}
+
+h3.aboutUs-sub-header {
+    color: #715b3a;
+    text-align: center;
+}
+
+.about-us-content {
+    text-align: center;
+}
+
+/* h3 {
+    text-align: center;
+} */
+
+h3 a:link {
+    text-decoration: none;
+    color: #5f1e16;
+}
+
+h3 a:hover {
+    text-decoration: none;
+    color: #96784c;
+}
+
+.main-menu a:link {
+    text-decoration: none;
+    color: #5f1e16;
+}
+
+.main-menu a:hover {
+    text-decoration: none;
+    color: #96784c;
+}
+
+.main-menu ul {
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 1em;
+    list-style-type: none;
+    float: right;
+    margin-top: -1.25em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+/* .products {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-basis: 0;
+    flex-grow: 2;
+    justify-content: center;
+    gap: 1em;
+} */
+
+img {
+    width: 100%;
+}
+
+footer {
+    color: #96784c;
+    text-align: center;
+    padding-top: 10px;
+}
